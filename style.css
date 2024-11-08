@@ -1,0 +1,846 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* ## Colors */
+
+  --Dark-Blue: hsl(217, 28%, 15%);
+  --Dark-Blue: hsl(218, 28%, 13%);
+  --Dark-Blue: hsl(216, 53%, 9%);
+  --Dark-Blue: hsl(219, 30%, 18%);
+
+  --Cyan: hsl(176, 68%, 64%);
+  --Blue: hsl(198, 60%, 50%);
+  --LightRed: hsl(0, 100%, 63%);
+
+  --White: hsl(0, 0%, 100%);
+}
+
+.do {
+  width: 1440px;
+  background: linear-gradient(
+    to bottom,
+    hsl(217, 28%, 15%),
+    hsl(218, 28%, 13%),
+    hsl(218, 28%, 13%),
+    hsl(218, 28%, 13%)
+  );
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 200px;
+  color: var(--White);
+  font-family: "Open Sans", sans-serif;
+}
+
+.ad {
+  position: absolute;
+  top: 850px;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+nav img {
+  padding-left: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--White);
+}
+
+nav a:hover {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--White);
+  text-decoration: underline;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--Cyan);
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  color: var(--White);
+  margin-right: 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  z-index: 3;
+}
+
+h1 {
+  padding: 0 450px;
+  color: var(--White);
+  text-align: center;
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+header p {
+  text-align: center;
+  line-height: 25.5px;
+  padding: 0 480px;
+}
+
+.button-one {
+  padding: 20px 100px;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 60px;
+  background-color: var(--Blue);
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 0%, 100%);
+  padding: 0px 50px;
+  gap: 80px;
+}
+
+.file h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+  z-index: 3;
+}
+
+.one {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.one img {
+  width: 91px;
+}
+
+.one p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.two {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.two p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.two img {
+  width: 91px;
+}
+
+.cream {
+  display: flex;
+  gap: 100px;
+}
+
+.three {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.three img {
+  width: 91px;
+}
+
+.three p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.four {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 90px;
+}
+
+.four img {
+  width: 91px;
+}
+
+.four p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* ============================= */
+
+.copilot {
+  margin: 0 100px;
+  display: flex;
+  gap: 80px;
+}
+
+.saints h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+  padding-right: 100px;
+}
+
+.saints a {
+  font-size: 17px;
+  color: var(--Blue);
+}
+
+.saints a:hover {
+  cursor: pointer;
+  color: var(--White);
+}
+
+.saints img:hover {
+  color: var(--White);
+  cursor: pointer;
+}
+
+/* =============================== */
+
+.edge {
+  width: 1340px;
+  /* margin: 0 100px; */
+  display: flex;
+  gap: 20px;
+  padding-left: 50px;
+}
+
+.edge img {
+  width: 80px;
+  height: 80px;
+}
+
+.father {
+  width: 360px;
+  height: 260px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 40px 25px 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  top: 2700px;
+  z-index: 3;
+  left: 70px;
+  border-radius: 7px;
+}
+
+.father p {
+  line-height: 25.5px;
+  padding-right: 45px;
+}
+
+.olivia {
+  display: flex;
+  gap: 20px;
+}
+
+.olivia img {
+  border-radius: 50%;
+}
+
+.zoom p {
+  margin-top: 0px;
+}
+
+.zoom h5 {
+  margin-bottom: 3px;
+}
+
+.son {
+  width: 360px;
+  height: 260px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 45px 25px 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  top: 2700px;
+  z-index: 3;
+  left: 500px;
+  border-radius: 7px;
+}
+
+.son p {
+  line-height: 25.5px;
+  padding-right: 45px;
+}
+
+.bruce {
+  display: flex;
+  gap: 20px;
+}
+
+.bruce img {
+  border-radius: 50%;
+}
+
+.born p {
+  margin-top: 0px;
+}
+
+.born h5 {
+  margin-bottom: 5px;
+}
+
+.quaint {
+  width: 390px;
+  height: 260px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 40px 25px 30px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  top: 2700px;
+  z-index: 3;
+  left: 930px;
+  border-radius: 7px;
+}
+
+.quaint p {
+  line-height: 25.5px;
+  padding-right: 75px;
+}
+
+.iva {
+  display: flex;
+  gap: 20px;
+}
+
+.iva img {
+  border-radius: 50%;
+}
+
+.skin p {
+  margin-top: 0px;
+}
+
+.skin h5 {
+  margin-bottom: 3px;
+}
+
+/* ============================== */
+
+.store {
+  width: 900px;
+  position: absolute;
+  top: 3210px;
+  left: 200px;
+  z-index: 3;
+  background-color: hsl(217, 28%, 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 70px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.store h3 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.ghost {
+  display: flex;
+  gap: 30px;
+}
+
+input {
+  width: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  border-radius: 30px;
+}
+
+.button-two {
+  background-color: var(--Blue);
+  color: var(--White);
+  padding: 15px 50px;
+  border: 0px;
+  border-radius: 35px;
+}
+
+.store p {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 100px;
+  text-align: center;
+}
+
+/* ============================== */
+
+footer {
+  /* width: 1440px; */
+  background-color: hsl(216, 53%, 9%);
+  margin-top: 500px;
+  padding: 200px 130px 150px 130px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.location {
+  width: 290px;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.location p {
+  width: 270px;
+  display: flex;
+  gap: 10px;
+  padding-left: 0px;
+  line-height: 25px;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.phone {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.phone p {
+  margin-top: 0;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.extra {
+  display: flex;
+  gap: 30px;
+}
+
+.jessica {
+  margin-top: 0;
+}
+
+.lucia {
+  margin-top: 0;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+  padding: 0 5px;
+  color: var(--White);
+}
+
+.social img:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+
+.here,
+.goes,
+.heart {
+  color: var(--White);
+}
+
+/* ==MEDIA QUERY== */
+
+@media (max-width: 400px) {
+  .do {
+    width: 375px;
+    background: linear-gradient(
+      to bottom,
+      hsl(217, 28%, 15%),
+      hsl(218, 28%, 13%),
+      hsl(218, 28%, 13%),
+      hsl(218, 28%, 13%),
+      hsl(218, 28%, 13%),
+      hsl(218, 28%, 13%),
+      hsl(218, 28%, 13%),
+      hsl(218, 28%, 13%),
+      hsl(218, 28%, 13%)
+    );
+    display: flex;
+    gap: 125px;
+  }
+
+  nav {
+    display: flex;
+    gap: 50px;
+  }
+
+  nav img {
+    padding-left: 20px;
+    width: 80px;
+    height: 20px;
+  }
+
+  .link {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  header img {
+    width: 250px;
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 25px;
+    padding: 0 20px;
+    /* padding-right: 55px; */
+  }
+
+  header p {
+    padding: 0 20px;
+  }
+
+  .button-one {
+    padding: 10px 100px;
+  }
+
+  .file {
+    margin-left: 0px;
+    padding: 0 0px;
+    display: flex;
+    gap: 100px;
+  }
+
+  .ice {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .one {
+    width: 340px;
+    padding: 0 0px;
+    padding-right: 15px;
+  }
+
+  .one p {
+    padding: 0 10px;
+  }
+
+  .two {
+    width: 355px;
+    padding: 0 0px;
+    padding-right: 15px;
+  }
+
+  .two p {
+    padding: 0 25px;
+  }
+
+  .cream {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+
+  .three {
+    width: 355px;
+    padding: 0 0px;
+  }
+
+  .three p {
+    padding: 0 10px;
+  }
+
+  .four {
+    width: 340px;
+    padding: 0 0px;
+    padding-right: 15px;
+  }
+
+  .four p {
+    padding: 0 0px;
+  }
+
+  .copilot {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 10px;
+  }
+
+  .copilot img {
+    width: 340px;
+    height: 250px;
+  }
+
+  .saints {
+    width: 345px;
+  }
+
+  .saints h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0px;
+  }
+
+  .I {
+    font-size: 15px;
+  }
+
+  .II {
+    font-size: 15px;
+  }
+
+  .saints img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .edge {
+    padding-left: 25px;
+  }
+
+  .edge img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .father {
+    width: 300px;
+    height: 230px;
+    top: 2900px;
+    left: 35px;
+    display: flex;
+    gap: 0px;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .father p {
+    font-size: 13.5px;
+    padding-right: 0px;
+  }
+
+  .olivia {
+    display: flex;
+    align-items: center;
+  }
+
+  .son {
+    width: 300px;
+    height: 230px;
+    top: 3155px;
+    left: 35px;
+    display: flex;
+    gap: 0px;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .son p {
+    font-size: 13.5px;
+    padding-right: 0px;
+  }
+
+  .bruce {
+    display: flex;
+    align-items: center;
+  }
+
+  .quaint {
+    width: 300px;
+    height: 230px;
+    top: 3410px;
+    left: 35px;
+    display: flex;
+    gap: 0px;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .quaint p {
+    font-size: 13.5px;
+    padding-right: 0px;
+  }
+
+  .iva {
+    display: flex;
+    align-items: center;
+  }
+
+  .store {
+    width: 335px;
+    top: 3750px;
+    left: 20px;
+    height: 350px;
+    padding: 0px 0px;
+    z-index: 2;
+  }
+
+  .store h3 {
+    width: 250px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .store p {
+    padding: 0 15px;
+  }
+
+  .ghost {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-two {
+    margin-left: 0px;
+    width: 310px;
+    padding: 20px 4px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .ghost input {
+    width: 270px;
+    padding: 20px 5px 20px 35px;
+    margin-left: 0px;
+  }
+
+  footer {
+    margin-top: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+  }
+
+  footer img {
+    width: 180px;
+    height: 60px;
+  }
+
+  .location img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .phone {
+    padding-right: 140px;
+  }
+
+  .phone img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .email {
+    display: flex;
+    gap: 25px;
+    padding-right: 130px;
+  }
+
+  .email img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .extra {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social {
+    padding: 60px 35px 50px 35px;
+  }
+
+  .social img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ad {
+    position: absolute;
+    top: 350px;
+    z-index: 1;
+    width: 375px;
+    height: 155px;
+  }
+}
